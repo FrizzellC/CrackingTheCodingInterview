@@ -6,7 +6,16 @@ namespace CrackingTheCodingInterview
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyHashMap<string, string> map = new MyHashMap<string, string>(20);
+            map.Add("1", "apple");
+            map.Add("2", "fig");
+            map.Add("3", "lemon");
+            map.Add("4", "orange");
+
+            string one = map.Find("1");
+            string three = map.Find("3");
+
+            map.Remove("1");
         }
     }
 }
