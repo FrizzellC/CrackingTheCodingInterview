@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CrackingTheCodingInterview
+namespace InterviewPrep
 {
     public class Program
     {
